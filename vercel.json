@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "api/form-expert.js": {
+      "runtime": "nodejs20.x",
+      "maxDuration": 60,
+      "regions": ["sin1"]
+    }
+  }
+}

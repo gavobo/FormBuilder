@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/form-expert"
+  to   = "/.netlify/functions/form-expert"
+  status = 200
